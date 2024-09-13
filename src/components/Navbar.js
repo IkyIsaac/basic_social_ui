@@ -51,7 +51,7 @@ const Navbar = () => {
       {" "}
       <StyledToolbar>
         <Typography variant="h5" sx={{ display: { xs: "none", sm: "block" } }}>
-          i-Media
+          Iky-Media
         </Typography>
         <Pets sx={{ display: { xs: "block", sm: "none" } }} />
         <Search>
