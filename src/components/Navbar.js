@@ -1,4 +1,4 @@
-import { Mail, Notifications, Pets, TroubleshootRounded } from "@mui/icons-material";
+import { Mail, Notifications, Pets } from "@mui/icons-material";
 import {
   AppBar,
   Toolbar,
@@ -21,6 +21,7 @@ const StyledToolbar = styled(Toolbar)({
 
 const Search = styled("div")(({ theme }) => ({
   backgroundColor: "white",
+  color:"lightgray",
   padding: "8px 20px",
   borderRadius: theme.shape.borderRadius,
   width: "40%",
